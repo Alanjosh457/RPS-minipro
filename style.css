@@ -1,0 +1,350 @@
+body{
+    background-color:  #89C15E;
+    
+}
+.p2,.p1,.p3{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.hb{
+    background-color:  #89C15E;
+   
+    border: solid 3px;
+    border-color: white;
+    
+
+   
+  
+    height: 25vh;
+    width: 1000px;
+    border-radius: 7px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+.hds{
+    margin-top: -170px;
+    margin-left: 250px;
+}
+.sb1,.sb2{
+    width: 170px;
+    height: 20vh;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 25px;
+}
+.sb3{
+    margin-left: 820px;
+    margin-top: -142px;
+    display: flex;
+    flex-direction: row;
+
+}
+.scoreDisplay1{
+  margin-top: -210px;  
+  margin-left: -90px;
+  font-size: 23px;
+ 
+    
+}
+.scoreDisplay2{
+    margin-top: -135px;  
+  margin-left: 80px;
+  font-size: 23px;
+    
+}
+.sn{
+    margin-top: -520px;
+    margin-left: 1000px;
+    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #656565;
+}
+.your{
+    margin-left: -20px;
+    margin-top: -220px;
+}
+.score1{
+    margin-left: -23px;
+}
+.score2{
+    margin-left: px;
+}
+.computer{
+    margin-left: -20px;
+}
+#playerScoreDisplay{
+color: black;
+font-family: 'Roboto';
+font-size: 50px;
+
+}
+#computerScoreDisplay{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 50px;
+    margin-top: px;
+}
+.s1{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.s2{
+    margin-top: 20px;
+}
+.choices{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: px;
+    height: 30vh;
+   
+ 
+}
+#fist{
+    width: 130px;
+    height: 18vh;
+    border-radius: 3000px;
+    background-color: rgb(255, 255, 255);
+    border: solid 18px;
+    margin-left: 650px;
+    margin-top: 40px;
+    border-color: #0074B6;
+    z-index: 3;
+    position: relative;
+    box-shadow: 0px 0px 30px #a9aba8 inset;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+   
+    
+}
+#fist:hover{
+    background-color: hsl(0, 0%, 100%);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #8bfdff inset, 0px 0px 15px #a8dfff;
+}
+#hand{
+    width: 130px;
+    height: 18vh;
+    border-radius: 3000px;
+    margin-top: -360px;
+    background-color: rgb(255, 254, 254);
+    border: solid 18px;
+    margin-left: 800px;
+    border-color: #FFA943;
+    z-index: 5;
+    position: relative;
+    box-shadow: 0px 0px 30px #a9aba8 inset;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+
+
+  
+    
+}
+#hand:hover{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 10px #FFA943 inset, 0px 0px 15px #FFA943;
+    transform: scale(1.1);
+}
+#scissor{
+    width: 130px;
+    height: 18vh;
+    border-radius: 3000px;
+    margin-top: 70px;
+    margin-left: 540px;
+    background-color: rgb(255, 255, 255);
+    border: solid 18px;
+    border-color: #BD00FF;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 0px 30px #a9aba8 inset;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+    
+    
+    
+    
+
+    
+}
+#scissor:hover{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 10px #BD00FF inset, 0px 0px 15px #BD00FF;
+    transform: scale(1.1);
+}
+
+.hand2{
+    margin-top: -45px;
+    margin-left: -30px;
+    z-index: 10;
+}
+.line1,.line2,.line3{
+    width: 300px;
+    height: 2vh;
+    background-color: #2f2c2c ;
+    margin-top: 500px;
+}
+.line1{
+    margin-left: 600px;
+    width: 250px;
+    margin-top: 130px;
+}
+.line2{
+    rotate: 55deg;
+    width: 200px;
+    margin-left: 550px;
+    z-index: 1;
+}
+.line3{
+    width: 200px;
+    margin-left: 700px;
+    rotate: 120deg;
+    margin-top: -50px;
+    z-index: 1;
+  
+}
+.line5{
+    width: 300px;
+    margin-left: 600px;
+    rotate: 180deg;
+    margin-top: -95px;
+    z-index: 1;
+    background-color: #2f2c2c ;
+    height: 2vh;
+  
+}
+.rs{
+    font-family: 'Roboto';
+    color: white;
+ 
+}
+
+.gr{
+    margin-left: 1200px;
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+    
+}    
+.gar{
+    margin-top: -80px;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 300px;
+    color: white;
+    font-weight: bold;
+    margin-left: -39px;
+}
+.rules{
+    margin-left: 1140px;
+ 
+}
+.rule4{
+    margin-top: 20px;
+}
+.rule3{
+    margin-top: 20px;
+
+}
+.rule2{
+    margin-top: 20px;
+}
+.rule1{
+    margin-top: 20px;
+}
+.rb{
+    width: 350px;
+    height: 50vh;
+    border: solid,white,10px;
+    margin-left: 1080px;
+    margin-top: -350px;
+    background-color: #004429;
+    border-radius: 15px;
+    }  
+
+.bln{
+    margin-top: -300px;
+    margin-left: 1115px;
+}
+#rul {
+    width: 150px;
+    height: 8vh;
+    border: solid white 5px;
+    border-radius: 10px;
+    background-color: #89C15E;
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute; /* Use absolute positioning */
+    bottom: 10px; /* Keep it 20px from the bottom of the rule box */
+    left: 1300px; /* Same left margin as before */
+    /* Ensure it stays on top */
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+}
+#rul:hover{
+    background-color: hsl(97, 63%, 24%);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.rb {
+    width: 350px;
+    height: 50vh;
+    margin-left: 1080px;
+    margin-top: -320px;
+    background-color: #004429;
+    border-radius: 15px;
+    position: relative; /* Ensure rule box is positioned relative to the containing element */
+   /* Ensures it stays below the button */
+    color: white;
+    z-index: 1;
+}
+.rules {
+    margin-left: 1150px; /* Adjust margin for better alignment */
+    z-index: 2;
+    position: relative;
+}
+
+.rule1, .rule2, .rule3, .rule4 {
+    margin-top: 20px;
+    color: white; /* Ensure the text is visible against the background */
+}
+
+.yel1{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+}    
+.yel2{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+    margin-top: 60px;
+}
+.yel3{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+    margin-top: 70px;
+}
+.yel4{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+    margin-top: 70px;
+}
+.bln{
+    margin-top: -260px;
+    margin-left: 1110px;
+    position: relative;
+ 
+    z-index: 3;
+}

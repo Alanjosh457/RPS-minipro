@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</head>
+<body>
+    <div class="cone" id="cone1"></div>
+<div class="sparks"></div>
+   <div class="cup1">
+    <div class="cp"><img src="images/cup.png" class="cup"></div>
+</div>
+    <div class="b1"><img src="images/big1.png" class="big1"></div>
+    <div class="b2"><img src="images/big2.png" class="big2"></div>
+    <div class="me"><img src="images/med.png" class="med"></div>
+    <div class="sm"><img src="images/small.png" class="small"></div>
+    <div class="t1"><img src="images/tin1.png" class="tin1"></div>
+    <div class="t2"><img src="images/tin2.png" class="tin2"></div>
+    <div class="t3"><img src="images/tin3.png" class="tin3"></div>
+    <div class="t0"><img src="images/tin3.png" class="tin0"></div>
+<div class="hc">
+    <h1>HURRAY!!</h1>
+    <div class="celebration">
+        <p class="pt">YOU WON THE GAME</p>
+       
+    </div>
+</div>
+
+
+    <button onclick="playAgain()">PLAY AGAIN</button>
+
+    <script>
+        function playAgain() {
+            // Reset the scores if needed, or keep them to continue playing
+            window.location.href = 'index.html';
+        }
+    </script>
+    <script>
+        function randomInRange(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+confetti({
+  angle: randomInRange(55, 125),
+  spread: randomInRange(50, 70),
+  particleCount: randomInRange(700, 1000),
+  origin: { y: 0. },
+});
+    </script>
+  
+</body>
+</html>

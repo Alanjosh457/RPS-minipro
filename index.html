@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="hb"></div>
+    <div class="hds">
+ <div class="p1">ROCK</div>
+ <div class="p2">PAPER</div>
+ <div class="p3">SCISSORS</div>
+</div>
+<div class="sb3">
+<div class="sb1"></div>
+<div class="sb2"></div>
+</div>
+
+<div class="">   <button onclick="playGame('scissors')" id="scissor">  <img src="images/scissor.png" class="img3"> </button></div>
+<div class="hand2"> <button onclick="playGame('paper')" id="hand">  <img src="images/icons8-hand-64 1.png" class="img2"> </button></div>
+  
+       <div class="fist2"> <button onclick="playGame('rock')" id="fist">  <img src="images/icons8-fist-67 1.png" class="img1" > </button></div>
+    
+
+
+       <div class="sn">
+
+        <div class="scoreDisplay1"><div class="your">YOUR </div><div class="score1">SCORE </div>
+            <div class="s1"><span id="playerScoreDisplay">0</span></div>
+        </div>
+    
+        <div class="scoreDisplay2"><div class="computer">COMPUTER</div><div class="score2"> SCORE</div> 
+        <div class="s2">
+            <span id="computerScoreDisplay">0</span></div>
+        </div>
+    </div>
+
+    <div class="sn">
+
+    <div class="scoreDisplay1"><div class="your">YOUR </div><div class="score1">SCORE </div>
+        <div class="s1"><span id="playerScoreDisplay">0</span></div>
+    </div>
+
+    <div class="scoreDisplay2"><div class="computer">COMPUTER</div><div class="score2"> SCORE</div> 
+    <div class="s2">
+        <span id="computerScoreDisplay">0</span></div>
+    </div>
+</div>
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+<div class="line5"></div>
+<div class="rs" id="rulesSection" style="display: none;">
+    
+    <div class="gar"> 
+        <div class="gr">GAME RULES</div>
+    </div>
+    <div class="rules">
+        <div class="rule1"> 
+            <div class="r1">Rock beats scissors, scissors beat </div>
+            <div class="r2">paper, and paper beats rock.</div>
+        </div>
+        <div class="rule2">
+            <div class="r3"> Agree ahead of time whether you’ll </div>
+            <div class="r4"> count off “rock, paper, scissors, </div>
+            <div class="r11"> shoot" or just “rock, paper, scissors.”</div>
+        </div>
+        <div class="rule3">
+            <div class="r5"> Use rock, paper, scissors to settle </div>
+            <div class="r6"> minor decisions or simply play to</div>
+            <div class="r7"> pass the time</div>
+        </div>
+        <div class="rule4">
+            <div class="r8"> If both players lay down the same hand, </div>
+            <div class="r9"> each player lays down another</div>
+            <div class="r10"> hand </div>
+        </div>
+    </div>
+    <div class="bln">
+        <div class="yel1">
+        
+        </div>
+        <div class="yel2">
+            
+        </div>
+        
+        
+        <div class="yel3">
+            
+        </div>
+        
+        <div class="yel4">
+            
+        </div>
+        </div>
+    
+    
+
+    <div class="rb" id="rulesBox" style="display: none;">
+    </div>
+</div>
+
+<button onclick="" id="rul" class="ra1">RULES</button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

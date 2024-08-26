@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Result</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="sbx">
+        <div class="gb"></div>
+        <div class="hb"></div>
+        <div class="hds">
+            <div class="p1">ROCK</div>
+            <div class="p2">PAPER</div>
+            <div class="p3">SCISSORS</div>
+        </div>
+        <div class="sb3">
+            <div class="sb1"></div>
+            <div class="sb2"></div>
+        </div>
+    </div>
+    
+    <div class="sby">
+        <div class="display">
+            <div id="playerDisplay" class="choiceDisplay"></div>
+            <div id="computerDisplay" class="choiceDisplay"></div>
+        </div>
+
+        <div id="resultDisplay"></div>
+
+        <button onclick="playAgain()" id="pa" class="pa1">PLAY AGAIN</button>
+     
+
+        <div class="sn">
+            <div class="scoreDisplay1">
+                <div class="your">YOUR</div>
+                <div class="score1">SCORE</div>
+                <div class="s1"><span id="playerScoreDisplay">0</span></div>
+            </div>
+
+            <div class="scoreDisplay2">
+                <div class="computer">COMPUTER</div>
+                <div class="score2">SCORE</div>
+                <div class="s2"><span id="computerScoreDisplay">0</span></div>
+            </div>
+        </div>
+        
+        <div class="yp">YOU PICKED</div>
+        <div class="pc">PC PICKED</div>
+        <div class="ag">AGAINST PC</div>
+<div class="halos">
+        <div class="halox">
+            <div class="halo1"></div>
+            <div class="halo2"></div>
+            <div class="halo3"></div>
+        </div>
+
+        <div class="haloy">
+            <div class="halo4"></div>
+            <div class="halo5"></div>
+            <div class="halo6"></div>
+        </div>
+    </div>
+    </div>
+    <div class="rs">
+        <div class="gar"> 
+        <div class="gr">GAME RULES</div>
+    </div>
+    <div class="rules">
+        <div class="rule1"> 
+        <div class="r1">Rock beats scissors, scissors beat </div>
+        <div class="r2">paper, and paper beats rock.</div>
+    </div>
+    <div class="rule2">
+        <div class="r3"> Agree ahead of time whether you’ll </div>
+        <div class="r4"> count off “rock, paper, scissors, </div>
+        <div class="r11"> shoot" or just “rock, paper, scissors.”</div>
+    </div>
+    <div class="rule3">
+        <div class="r5"> Use rock, paper, scissors to settle </div>
+        <div class="r6"> minor decisions or simply play to</div>
+        <div class="r7"> pass the time</div>
+        </div>
+        <div class="rule4">
+        <div class="r8"> If both players lay down the same hand, </div>
+        <div class="r9"> each player lays down another</div>
+        <div class="r10"> hand </div>
+    </div>
+    </div>
+    <div class="rb">
+    
+    
+    </div>
+    <div class="bln">
+    <div class="yel1">
+    
+    </div>
+    <div class="yel2">
+        
+    </div>
+    
+    
+    <div class="yel3">
+        
+    </div>
+    
+    <div class="yel4">
+        
+    </div>
+    </div>
+    <button onclick="" id="rul" class="ra1">RULES</button>
+    <button id="nextButton" style="display: none;" onclick="goToCelebration()">NEXT</button>
+
+    <script>
+
+        const playerChoice = localStorage.getItem('playerChoice');
+        const computerChoice = localStorage.getItem('computerChoice');
+        const result = localStorage.getItem('result');
+        const playerScore = localStorage.getItem('playerScore');
+        const computerScore = localStorage.getItem('computerScore');
+
+        const choiceMap = {
+            'rock': '<button id="fist"><img src="images/icons8-fist-67 1.png" class="img1"></button>',
+            'paper': '<button id="hand"><img src="images/icons8-hand-64 1.png" class="img2"></button>',
+            'scissors': '<button id="scissor"><img src="images/scissor.png" class="img3"></button>'
+        };
+
+        document.getElementById("playerDisplay").innerHTML = choiceMap[playerChoice];
+        document.getElementById("computerDisplay").innerHTML = choiceMap[computerChoice];
+        document.getElementById("resultDisplay").textContent = result;
+        document.getElementById("playerScoreDisplay").textContent = playerScore;
+        document.getElementById("computerScoreDisplay").textContent = computerScore;
+
+        const resultDisplay = document.getElementById("resultDisplay");
+
+        if (result === "YOU WIN") {
+            resultDisplay.classList.add('win');
+            document.querySelector('.halox').style.display = 'block'; 
+            document.getElementById('nextButton').style.display = 'inline-block'; 
+        } else if (result === "YOU LOST") {
+            resultDisplay.classList.add('lose');
+            document.querySelector('.haloy').style.display = 'block'; 
+        } else {
+            resultDisplay.classList.add('tie');
+        }
+
+        function playAgain() {
+            window.location.href = 'index.html';
+        }
+
+        function goToCelebration() {
+            window.location.href = 'celeb.html';
+        }
+        document.getElementById('rul').addEventListener('click', function() {
+            const ruleBox = document.querySelector('.rb');
+            const rulesContent = document.querySelector('.rules');
+            const bulletins = document.querySelector('.bln');
+            const gameRulesTitle = document.querySelector('.gar');
+            
+            // Toggle visibility
+            ruleBox.style.display = ruleBox.style.display === 'none' || ruleBox.style.display === '' ? 'block' : 'none';
+            rulesContent.style.display = rulesContent.style.display === 'none' || rulesContent.style.display === '' ? 'block' : 'none';
+            bulletins.style.display = bulletins.style.display === 'none' || bulletins.style.display === '' ? 'block' : 'none';
+            gameRulesTitle.style.display = gameRulesTitle.style.display === 'none' || gameRulesTitle.style.display === '' ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>

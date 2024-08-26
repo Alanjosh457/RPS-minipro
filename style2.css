@@ -1,0 +1,455 @@
+body {
+    background-color: #89C15E;
+}
+
+.p2, .p1, .p3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.hb {
+    background-color: #89C15E;
+    border: solid 3px white;
+    height: 25vh;
+    width: 1000px;
+    border-radius: 7px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+
+.hds {
+    margin-top: -170px;
+    margin-left: 250px;
+}
+
+.sb1, .sb2 {
+    width: 170px;
+    height: 20vh;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 25px;
+}
+
+.sb3 {
+    margin-left: 820px;
+    margin-top: -142px;
+    display: flex;
+    flex-direction: row;
+}
+
+.scoreDisplay1 {
+    margin-top: -210px;
+    margin-left: -90px;
+    font-size: 23px;
+}
+
+.scoreDisplay2 {
+    margin-top: -135px;
+    margin-left: 80px;
+    font-size: 23px;
+}
+
+.sn {
+    margin-top: -625px;
+    margin-left: 1000px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #656565;
+}
+
+.your {
+    margin-left: -20px;
+    margin-top: 60px;
+    position: static;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.score1 {
+    margin-left: -23px;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.score2 {
+    margin-left: 0px;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.computer {
+    margin-left: -20px;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+#playerScoreDisplay, #computerScoreDisplay {
+    color: black;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 50px;
+}
+
+.s1, .s2 {
+    margin-top: 20px;
+}
+
+.display {
+    display: flex;
+   
+    gap : 170px; /* Adjust the gap between the two display areas */
+    margin-top: 150px;
+    margin-left: 100px;
+    
+    
+   
+}
+
+#playerDisplay, #computerDisplay {
+    display: flex;
+   
+     /* Adjust the gap between the buttons */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: white;
+    margin-top: -90px;
+    margin-right: -400px;
+    margin-left: 330px;
+    
+
+}
+
+#fist, #hand, #scissor {
+    width: 180px;
+    height: 25vh;
+    border-radius: 4000px;
+    background-color: white;
+    border: solid 18px;
+    box-shadow: 0px 0px 30px #a9aba8 inset;
+    display: flex;
+
+    justify-content: center;
+    margin-top: 120px;
+    margin-right: 250px;
+    margin-left: -90px;
+   
+   
+}
+
+#fist {
+    border-color: #0074B6;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+#hand {
+    border-color: #FFA943;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#scissor {
+    border-color: #BD00FF;
+    padding: 44px;
+    margin-top: 50px;
+
+}
+
+.img1, .img2, .img3 {
+    width: 100%;
+    height: 100%;
+  
+}
+.img3{
+ height: 9vh;
+    
+}
+
+.img1{
+width: 200px;
+}
+.choiceDisplay{
+    margin-left: 350px;
+    
+    
+  
+   
+}
+.yp,.pc{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 300px;
+    
+}
+.pc{
+    margin-left: 970px;
+    margin-top: -25px;
+}
+#playerScoreDisplay{
+    margin-left: -17px;
+}
+
+
+.yp{
+margin-left: 375px;
+margin-top: 150px;
+}
+#resultDisplay {
+    font-size: 35px; /* Size of the text */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+   margin-top: 50px;
+   margin-left: -50px;
+}
+.ag{
+    margin-left: 638px;
+    margin-top: 120px;
+    color: white;
+    font-size: 25px; /* Size of the text */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sbx{
+    margin-top: -40px;
+}
+.sby{
+    margin-top: 250px;
+}
+
+#playerDisplay{
+    margin-left: 325px;
+}
+#computerDisplay {
+    margin-left: 480px;
+}
+.halo1{
+    width: 380px;
+    height: 50vh;
+    background-color: #2E9A2563;
+    border-radius: 2100px;
+    margin-top: -200px;
+    margin-left: 220px;
+    padding: 10px;
+    
+}
+.halo2{
+    width: 328px;
+    height: 45vh;
+    background-color: #3fa535d1;
+    border-radius: 3100px;
+    margin-top: -367px;
+    margin-left: 248px;
+    padding: 8px;
+
+}
+.halo3{
+    width: 225px;
+    height: 30vh;
+    background-color: #2e9323e6;
+    border-radius: 3100px;
+    margin-top: -312px;
+    margin-left: 277px;
+    padding: 30px;
+    
+
+}
+.halo4{
+    width: 380px;
+    height: 50vh;
+    background-color: #2E9A2563;
+    border-radius: 2100px;
+    margin-top: -200px;
+    margin-left: 220px;
+    padding: 10px;
+}
+.halo5{
+    width: 328px;
+    height: 45vh;
+    background-color: #3fa535d1;
+    border-radius: 3100px;
+    margin-top: -367px;
+    margin-left: 248px;
+    padding: 8px;
+
+}
+.halo6{
+    width: 225px;
+    height: 30vh;
+    background-color: #2e9323e6;
+    border-radius: 3100px;
+    margin-top: -312px;
+    margin-left: 277px;
+    padding: 30px;
+    
+
+}
+.haloy{
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.halox, .haloy {
+    display: none; 
+}
+#pa{
+ 
+    border-radius: 10px;
+    background-color : #ffffff;
+    
+    
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    width: 150px;
+    height: 5vh;
+    border: none;
+    font-family:  'Roboto', sans-serif;
+    margin-left: 630px;
+    padding: 2px;
+   
+    
+}
+#pa:hover {
+    background-color: hsl(118, 93%, 22%);
+    color: #ffffff;
+    font-weight: bold;
+}
+.halox{
+    margin-left: 5px;
+    margin-top: -30px;
+}
+.rs{
+    font-family: 'Roboto';
+    color: white;
+ 
+}
+
+.gr{
+    margin-left: 1290px;
+    margin-top: -380px;
+    
+}    
+.gar{
+    margin-top: -80px;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 300px;
+    color: white;
+    font-weight: bold;
+    margin-left: -39px;
+    display: none;
+}
+.rules{
+    margin-left: 1220px;
+    display: none;
+ 
+}
+.rule4{
+    margin-top: 20px;
+}
+.rule3{
+    margin-top: 20px;
+
+}
+.rule2{
+    margin-top: 20px;
+}
+.rule1{
+    margin-top: 20px;
+}
+.rb{
+    width: 350px;
+    height: 50vh;
+    border: solid,white,10px;
+    margin-left: 1150px;
+    margin-top: -350px;
+    background-color: #004429;
+    border-radius: 15px;
+    display: none;
+    }  
+.yel1{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+}    
+.yel2{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+    margin-top: 60px;
+}
+.yel3{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+    margin-top: 70px;
+}
+.yel4{
+    background-color: #FFD600;
+    width: 8px;
+    height: 1vh;
+    padding: 1px;
+    margin-top: 70px;
+}
+.bln{
+    margin-top: -300px;
+    margin-left: 1180px;
+    display: none;
+}
+#rul {
+    width: 150px;
+    height: 8vh;
+    border: solid white 5px;
+    border-radius: 10px;
+    background-color: #89C15E;
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute; /* Use absolute positioning */
+    bottom: 10px; /* Keep it 20px from the bottom of the rule box */
+    left: 1300px; /* Same left margin as before */
+    /* Ensure it stays on top */
+    margin-top: 20px;
+    margin-left: -100px;
+    transition: background-color 0.5s ease;
+} 
+#rul:hover{
+    background-color: hsl(97, 63%, 24%);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#nextButton{
+margin-left: 1370px;
+margin-top: 5px;
+width: 150px;
+height: 8vh;
+border: solid white 5px;
+border-radius: 10px;
+background-color: #89C15E;
+color: white;
+font-size: 25px;
+font-family: 'Roboto';
+font-weight: bold;
+letter-spacing: 5px;
+bottom: 10px;
+position: fixed;
+transition: background-color 0.5s ease;
+
+}
+#nextButton:hover{
+    background-color: hsl(97, 63%, 24%);
+    color: #ffffff;
+    font-weight: bold;
+}

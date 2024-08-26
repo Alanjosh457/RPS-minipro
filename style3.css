@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #89C15E;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+    letter-spacing: 0.3em;
+
+}
+
+.scoreDisplay {
+    font-size: 2rem;
+}
+
+button {
+ 
+
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color : #ffffff;
+    
+    
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    width: 150px;
+    height: 5vh;
+    border: none;
+    font-family:  'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: hsl(0, 3%, 37%);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.celebration {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.celebration-img {
+    max-width: 230px;
+    margin-top: 20px;
+}
+.cup{
+    margin-top: 150px;
+
+}
+.cp{
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+.pt{
+    font-size: 27px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 32px;
+    margin-top: -25px;
+    letter-spacing: 0.2em;
+}
+.big1{
+    margin-left: -300px;
+  
+}
+.med{
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.big2{
+    margin-left: 350px;
+    margin-top: -200px;
+}
+.b1{
+    margin-top: -200px;
+}
+.b2{
+    margin-top: -100px;
+    margin-top: 30px;
+}
+.me{
+    margin-top: -200px;
+    margin-left: 150px;
+}
+.sm{
+    margin-top: -50px;
+    margin-left: -350px;
+}
+.t1{
+    margin-top: -120px;
+    margin-left: -280px;
+}
+.t3{
+    margin-top: 200px;
+    margin-left: -300px;
+}
+.t0{
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.cup1{
+    margin-top: -90px;
+}
+.hc{
+    margin-top: 200px;
+}
+@keyframes shrinkAndResize {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.big1,
+.big2,
+.med,
+.sm,
+.t1,
+.t2,
+.t3,
+.t0 {
+    animation: shrinkAndResize 3s infinite ease-in-out;
+}
+.cone{
+    margin-left: -1400px;
+    font-size: 50px;
+}
+@keyframes rotateAndGlow {
+    0% {
+        transform: rotate(50deg);
+        
+    }
+    20%{
+        transform: rotate(50deg);
+    }
+    
+    
+}
+.cone{
+    animation: rotateAndGlow 2s infinite linear;
+}
